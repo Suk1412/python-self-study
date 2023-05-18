@@ -1,5 +1,5 @@
-# 基于  https://docs.python.org/3/   python文档
-python3中常用的内置方法
+#: 基于  https://docs.python.org/3/   python文档
+python3:中常用的内置方法
 abs(): 返回一个数值的绝对值
 all(): 接受一个可迭代对象作为参数，如果该可迭代对象中所有元素都为True，则返回True，否则返回False
 any(): 接受一个可迭代对象作为参数，只要该可迭代对象中有一个元素为True，则返回True，否则返回False

@@ -1,6 +1,4 @@
  ###名词解释
- #####对象
-
  #####函数
 >是一段执行某个特定任务的可重复使用的代码块。Python 中的函数可以通过 def 关键字定义，并且可以被传递给其他函数或赋值给变量。
 >```python
@@ -46,11 +44,12 @@
 >person = Person("Alice", 25)
 >person.say_hello() # 输出 Hello, my name is Alice
 >```
- #####
+
+###遍历对象
+>序列类型（list、tuple、range、str等）：它们支持索引和切片操作，并且元素按照添加顺序排序。
 >
->```python
->```
- #####
+>集合类型（set、frozenset、dict的keys()等）：它们不支持索引和切片操作，而是通过迭代器返回元素。其中字典的keys()方法返回的是一个集合类型。
 >
->```python
->```
+>generator类型（生成器）：它们由yield语句生成，在每次迭代时返回一个值。generator本身也是可迭代对象，因此可以嵌套使用yield语句来实现复杂的迭代逻辑。
+>
+>还有一些内置函数和模块也可以被视为可迭代对象，例如zip、map、filter、re模块的search和finditer方法等

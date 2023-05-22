@@ -12,6 +12,9 @@ class Animal:
 class Cat(Animal):
     pass
 
+class Boy:
+    pass
+
 # 创建一个 Cat 类型的对象
 my_cat = Cat()
 
@@ -19,3 +22,4 @@ my_cat = Cat()
 print(isinstance(my_cat, Animal)) # 输出: True
 print(isinstance(my_cat, Cat))    # 输出: True
 print(isinstance(my_cat, object)) # 输出: True
+print(isinstance(my_cat, Boy)) # 输出: False

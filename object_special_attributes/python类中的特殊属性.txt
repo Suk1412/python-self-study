@@ -1,0 +1,23 @@
+#: 基于  https://docs.python.org/3/   python文档
+
+__class__: 对象所属的类。当我们创建一个实例对象时，
+__delattr__(self, name): 删除对象的指定属性。
+__dir__(): 返回对象的属性列表，可以被 dir() 函数调用。
+__doc__: 对象的文档字符串。
+__eq__(self, other): 判断两个对象是否相等。
+__format__(self, format_spec): 格式化对象的输出，支持使用 {} 占位符。
+__ge__(self, other): 判断一个对象是否大于等于另一个对象。
+__getattribute__(self, name): 获取对象的指定属性，等同于 obj.name。
+__gt__(self, other): 判断一个对象是否大于另一个对象。
+__hash__(self): 返回对象的哈希值。
+__init__(self[, ...]): 类的构造函数。
+__le__(self, other): 判断一个对象是否小于等于另一个对象。
+__lt__(self, other): 判断一个对象是否小于另一个对象。
+__ne__(self, other): 判断两个对象是否不相等。
+__new__(cls[, ...]): 创建对象的方法，在 __init__ 方法之前调用。
+__reduce__(self): 返回对象的序列化表示形式。
+__reduce_ex__(self, protocol): 返回对象的序列化表示形式，支持指定协议版本号。
+__repr__(self): 返回对象的字符串表示形式，通常用于调试和开发过程。
+__setattr__(self, name, value): 设置对象的指定属性值，等同于 obj.name = value。
+__sizeof__(self): 返回对象占用内存的大小。
+__str__(self): 返回对象的字符串表示形式，通常用于输出或显示。

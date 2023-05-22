@@ -44,7 +44,18 @@
 >person = Person("Alice", 25)
 >person.say_hello() # 输出 Hello, my name is Alice
 >```
-
+ #####类方法
+>类方法（Class Method）是指在一个类中定义的方法，可以直接通过类名调用，而不需要实例化一个对象。类方法通常被用来处理与整个类相关的操作，而不是针对类的单独实例进行操作。
+>在Python中，类方法使用@classmethod装饰器来声明，在方法的第一个参数中一般命名为cls，表示该方法所属的类。
+>```python
+>class MyClass:
+>   @classmethod
+>   def my_class_method(cls, arg1, arg2):
+>       pass
+>
+>MyClass.my_class_method(arg1, arg2)
+>```
+>
 ###遍历对象
 >序列类型（list、tuple、range、str等）：它们支持索引和切片操作，并且元素按照添加顺序排序。
 >
